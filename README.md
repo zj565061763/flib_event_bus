@@ -1,6 +1,8 @@
 # About
 
 一个用来管理事件通信的库，支持观察者监听生命周期，当生命周期销毁后自动移除观察者
+<br>
+关于生命周期分发的库，可以参考[这里](https://github.com/zj565061763/flib_lifecycle)
 
 ## Install
 * git
