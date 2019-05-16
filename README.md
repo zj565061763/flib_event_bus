@@ -42,4 +42,7 @@ void post(dynamic event)
 ///   1. [lifecycleOwner] != null，则[FLifecycleEvent.onDestroy]事件后，会自动移除观察者
 ///   2. [lifecycleOwner] == null，则不会自动移除观察者
 void addObserver<T>(FEventBusObserver<T> observer, FLifecycleOwner lifecycleOwner)
+
+/// 移除观察者
+void removeObserver(Function observer)
 ```
